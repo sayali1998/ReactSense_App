@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "955645208858",
+    "firebase_url": "https://reactsense-de14d.firebaseio.com",
+    "project_id": "reactsense-de14d",
+    "storage_bucket": "reactsense-de14d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955645208858:android:0c3aee16da846f7b",
+        "android_client_info": {
+          "package_name": "com.example.janhavi.reactsense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955645208858-h664nattcmevo3u58t7925ph6n2j8i54.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.janhavi.reactsense",
+            "certificate_hash": "39b5cec1128778cb3692cb27031f704d762fb8f5"
+          }
+        },
+        {
+          "client_id": "955645208858-k2jl7lrgatovg1an753a3kdq1jt45q6g.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "955645208858-k2jl7lrgatovg1an753a3kdq1jt45q6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP5ZUyHMruC1luJghKsgd0dDcLEhcI4tI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955645208858-k2jl7lrgatovg1an753a3kdq1jt45q6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
