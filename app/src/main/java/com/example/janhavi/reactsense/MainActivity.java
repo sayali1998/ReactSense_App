@@ -1,5 +1,6 @@
 package com.example.janhavi.reactsense;
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -48,12 +49,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Fragment fragment=new LineGraph();
-                FragmentManager fragmentManager=getSupportFragmentManager();
-                FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.mainActivity,fragment);
-
-                fragmentTransaction.commit();
+                Intent intent=new Intent(MainActivity.this,LineGraph.class);
+                startActivity(intent);
 
             }
         });
